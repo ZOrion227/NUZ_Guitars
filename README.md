@@ -1,2 +1,2 @@
 # NUZ_Guitars
-A small business and supporting website for a mock small business plan as a capstone project in C102.
+A website for an accompanying small business built for a mock business planning C102 capstone assignment 
