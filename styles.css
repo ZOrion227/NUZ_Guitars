@@ -3,7 +3,7 @@
 }*/
 body{
   background-image: url(img/bodybg.jpeg);
-  background-size: 100%;
+  background-size: 200%;
 
 }
 .theHead img{
@@ -55,7 +55,7 @@ margin-bottom: 20px;
   height: 270px;
 }
 .caro{
-  background-image: url(img/background.jpeg);
+  background-image: url(img/background.jpg);
   border: black 1px solid;
   margin-bottom: 20px;
 }
@@ -81,4 +81,47 @@ margin-bottom: 20px;
   width: 100%;
   font-size: 35px;
 
+}
+
+.main p{
+  background-color: rgba(50, 50, 50, 0.5);
+  color: white;
+  font-size: 20px;
+}
+
+.main ul{
+  list-style-type: circle;
+  background-color: rgba(50, 50, 50, 0.5);
+  color: gold;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.main img{
+  width: 100%;
+}
+.main ul button{
+  float: right;
+  background-color: white;
+  color: gold;
+  width: 100%;
+ font-size: 20px;
+}
+.product{
+  background-image: url(img/background.jpg);
+  background-size: 100%;
+}
+.product img{
+  height: 75px;
+}
+.product h4{
+  font-weight: bold;
+  color: white;
+}
+
+.main a{
+  text-decoration: underline;
+  color: white;
+}
+.main a:hover{
+  color: gold;
 }
