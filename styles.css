@@ -125,3 +125,27 @@ margin-bottom: 20px;
 .main a:hover{
   color: gold;
 }
+/*used for aligning parts*/
+/*table *{
+  border: 1px black solid;
+}*/
+.cust td{
+  height: 100px;
+  width: 100px;
+}
+
+.custom{
+  background-image: url(img/background.jpg);
+  background-size: 100%;
+}
+
+#body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#neck{
+  background-size: 165%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
