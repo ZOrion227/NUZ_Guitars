@@ -9,6 +9,7 @@ body{
 .theHead img{
 border-bottom: gold 5px solid;
 margin-bottom: 20px;
+margin-left: -23%;
 }
 
 .sidebar{
@@ -40,9 +41,13 @@ margin-bottom: 20px;
   border-top: gold 2px solid;
 }
 
+.main{
+    margin-bottom: 5%;
+}
+
 .main h1{
   background-image: linear-gradient(90deg, gold, black, black, black, black, gold);
-  color: gold;
+  color: white;
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
@@ -52,7 +57,7 @@ margin-bottom: 20px;
 
 .carousel-item img{
   width: 100%;
-  height: 270px;
+  height: 20em;
 }
 .caro{
   background-image: url(img/background.jpg);
@@ -74,13 +79,13 @@ margin-bottom: 20px;
 }
 .footer h1{
   background-image: linear-gradient(90deg, gold, black, black, black, black, black, black, gold);
-  color: gold;
+  color: white;
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
   width: 100%;
   font-size: 35px;
-
+\
 }
 
 .main p{
@@ -101,10 +106,15 @@ margin-bottom: 20px;
 }
 .main ul button{
   float: right;
-  background-color: white;
-  color: gold;
+  background-image: url(img/background.jpg);
+  background-size: 100%;
+  color: White;
   width: 100%;
  font-size: 20px;
+ margin-bottom: 1%;
+}
+#cart{
+ margin-bottom: 15%
 }
 .product{
   background-image: url(img/background.jpg);
@@ -124,4 +134,34 @@ margin-bottom: 20px;
 }
 .main a:hover{
   color: gold;
+}
+/*used for aligning parts*/
+/*table *{
+  border: 1px black solid;
+}*/
+.cust td{
+  height: 100px;
+  width: 100px;
+}
+
+.custom{
+  background-image: url(img/background.jpg);
+  background-size: 100%;
+}
+
+#body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#neck{
+  background-size: 165%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.main button{
+  color: gold;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 5%;
 }
